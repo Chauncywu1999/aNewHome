@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,5 +10,10 @@ namespace aHome
     {
         string DoorDescription{ get; }
         Location DoorLocation { get; set; }
+    }
+
+    interface IHidingPlace
+    {
+        string HidingPlaceName { get; }
     }
 }
